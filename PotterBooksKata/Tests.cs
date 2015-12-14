@@ -37,6 +37,16 @@ namespace PotterBooksKata
             var total = basket.Total(book);
             Assert.AreEqual(expected, total);
         }
+
+        [Test]
+        public void buying_ThreeDifferentBooks_ShouldReturnDiscountedPrice()
+        {
+            var expected = 24 - (8 * 3 * 10 / 100);
+            var book = new int[] { 1, 2 };
+            var basket = new ShoppingBasket();
+            var total = basket.Total(book);
+            Assert.AreEqual(expected, total);
+        }
     }
 
     public class ShoppingBasket
