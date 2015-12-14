@@ -1,0 +1,7 @@
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\bin\Debug\PotterBooksKata.dll
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\bin\Debug\PotterBooksKata.pdb
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\bin\Debug\nunit.framework.dll
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\bin\Debug\nunit.framework.xml
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\obj\Debug\PotterBooksKata.dll
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\obj\Debug\PotterBooksKata.pdb
+C:\Users\Kirsty Hunter\Documents\Potter\PotterBooksKata\obj\Debug\PotterBooksKata.csprojResolveAssemblyReference.cache
