@@ -18,4 +18,12 @@ namespace PotterBooksKata
             Assert.AreEqual(8, total);
         }
     }
+
+    public class ShoppingBasket
+    {
+        public int Total()
+        {
+            return 8;
+        }
+    }
 }
