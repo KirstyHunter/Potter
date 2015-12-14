@@ -42,7 +42,7 @@ namespace PotterBooksKata
         public void buying_ThreeDifferentBooks_ShouldReturnDiscountedPrice()
         {
             var expected = 24 - (8 * 3 * 10 / 100);
-            var book = new int[] { 1, 2 };
+            var book = new int[] { 1, 2, 3 };
             var basket = new ShoppingBasket();
             var total = basket.Total(book);
             Assert.AreEqual(expected, total);
@@ -58,6 +58,10 @@ namespace PotterBooksKata
             if(books.Distinct().Count() == 2)
             {
                 return total - (8 * books.Distinct().Count() * 5 / 100);
+            }
+            if(books.Distinct().Count() == 3)
+            {
+                return total - (8 * books.Distinct().Count() * 10 / 100);
             }
             return total;
         }
